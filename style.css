@@ -16,6 +16,12 @@ header {
   text-align: center;
 }
 
+.logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 nav ul {
   list-style: none;
   padding: 1rem 0;

@@ -85,6 +85,13 @@ main {
   margin-left: 20px;
 }
 
+.announcement-image {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
 .announcement p {
   font-size: 0.9em;
   color: #333;

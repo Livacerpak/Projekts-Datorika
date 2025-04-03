@@ -81,21 +81,22 @@ main {
 
 .announcement {
   text-align: left;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
 .announcement-image {
   max-width: 300px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .announcement p {
-  font-size: 0.9em;
+  font-size: 1.2em;
   color: #333;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 footer {

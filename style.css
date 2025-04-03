@@ -79,6 +79,18 @@ main {
   margin: 0 auto;
 }
 
+.announcement {
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.announcement p {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
 footer {
   text-align: right;
   padding: 1rem;

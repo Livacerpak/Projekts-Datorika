@@ -56,6 +56,12 @@ main {
   margin: 0 auto;
 }
 
+#home h2 {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+
 footer {
   text-align: right;
   padding: 1rem;

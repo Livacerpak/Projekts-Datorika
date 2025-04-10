@@ -84,11 +84,15 @@ main {
   margin-left: 20px;
 }
 
+.images-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
 .announcement-image {
   max-width: 300px;
   height: auto;
-  margin-bottom: 15px;
-  display: block;
 }
 
 .announcement p {

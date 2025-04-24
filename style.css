@@ -159,3 +159,11 @@ h1 {
   margin-bottom: 20px;
   color: #800000;
 }
+.spa-image {
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .spa-image {
+    border-radius: 20px;
+  }

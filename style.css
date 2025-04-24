@@ -167,3 +167,427 @@ h1 {
   .spa-image {
     border-radius: 20px;
   }
+ row {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+.row {
+  display: flex;
+  justify-content: center; /* Centers the images */
+  gap: 20px; /* Adds space between the images */
+}
+
+.picture-flower,
+.picture-cream {
+  text-align: center; /* Aligns text and images nicely */
+}
+
+img {
+  max-width: 150px; /* Ensures images don't overflow */
+  height: auto; /* Maintains image aspect ratio */
+}
+.row {
+  display: flex;
+  justify-content: center; /* Centers the main sections */
+  gap: 20px; /* Space between flower and cream sections */
+}
+
+.picture-flower,
+.picture-cream {
+  text-align: center;
+}
+
+img {
+  max-width: 150px; /* Limit size for all images */
+  height: auto; /* Maintain proportions */
+}
+
+.top-procedures-under-flower {
+  text-align: center;
+  margin-top: 20px; /* Add spacing below the flower image */
+}
+
+.top-procedures-under-flower h3 {
+  font-size: 18px; /* Adjust title size */
+  color: #333; /* Optional text color */
+  margin-bottom: 10px; /* Spacing between title and image */
+}
+
+.rounded-image {
+  width: 150px; /* Adjust image size */
+  height: auto;
+  border-radius: 15px; /* Slightly round the edges */
+  border: 1px solid #ddd; /* Optional border around the image */
+}
+
+.top-procedures-under-flower h3 {
+  font-size: 18px; /* Adjust title size */
+  color: #333; /* Optional text color */
+  margin-bottom: 10px; /* Spacing between title and image */
+  font-weight: normal; /* This removes bold styling */
+}
+.beauty-trends {
+  text-align: center; /* Center the text and image */
+  margin-top: 20px; /* Adds spacing above this section */
+}
+
+.beauty-trends h3 {
+  font-size: 20px; /* Adjust title size */
+  color: #333; /* Set text color */
+  font-weight: normal; /* Removes bold styling */
+  margin-bottom: 10px; /* Adds spacing below the title */
+}
+
+.beauty-trends img {
+  width: 200px; /* Adjust image width */
+  height: auto; /* Maintain proportions */
+}
+.top-procedures-row {
+  display: flex; /* Aligns images horizontally */
+  justify-content: center; /* Centers the images */
+  gap: 20px; /* Adds space between spa and beauty images */
+}
+
+.top-procedures-under-flower,
+.beauty-trends {
+  text-align: center; /* Centers text and image */
+}
+
+.rounded-image {
+  width: 150px; /* Adjust image size */
+  height: auto; /* Maintain proportions */
+  border-radius: 15px; /* Slightly round the corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+h3 {
+  font-size: 18px; /* Adjust font size */
+  color: #333; /* Set text color */
+  font-weight: normal; /* Ensures text is not bold */
+}
+.row {
+  display: flex;
+  justify-content: center; /* Aligns main sections horizontally */
+  gap: 20px; /* Space between the sections */
+}
+
+.picture-flower {
+  text-align: center;
+}
+
+.picture-cream {
+  text-align: center;
+}
+
+.top-procedures-row {
+  display: flex; /* Aligns spa and beauty images horizontally */
+  justify-content: center; /* Centers the images */
+  gap: 20px; /* Adds space between spa and beauty sections */
+}
+
+.top-procedures-under-flower,
+.beauty-trends {
+  text-align: center; /* Centers the text and image */
+}
+
+.rounded-image {
+  width: 150px; /* Adjusts image size */
+  height: auto; /* Maintains proportions */
+  border-radius: 15px; /* Slightly rounds edges */
+  border: 1px solid #ddd; /* Optional: Adds a border */
+}
+
+h3 {
+  font-size: 18px; /* Sets font size */
+  color: #333; /* Text color */
+  font-weight: normal; /* Removes bold styling */
+  margin-bottom: 10px; /* Adds spacing below titles */
+}
+.row {
+  display: flex;
+  justify-content: center; /* Aligns main sections horizontally */
+  gap: 20px; /* Adds space between sections */
+}
+
+.picture-flower,
+.picture-cream {
+  text-align: center;
+}
+
+.top-procedures-row {
+  display: flex; /* Aligns spa and beauty images horizontally */
+  justify-content: center; /* Centers the images */
+  gap: 30px; /* Adds more space between spa and beauty sections */
+}
+
+.top-procedures-under-flower,
+.beauty-trends {
+  text-align: center; /* Centers text and image */
+}
+
+.rounded-image {
+  border-radius: 15px; /* Slightly round corners */
+  border: 1px solid #ddd; /* Optional border */
+}
+
+.top-procedures-under-flower img {
+  width: 150px; /* Size for spa image */
+  height: auto; /* Maintain proportions */
+}
+
+.beauty-trends img {
+  width: 200px; /* Larger size for beauty image */
+  height: auto; /* Maintain proportions */
+}
+
+h3 {
+  font-size: 16px; /* Smaller text size for titles */
+  color: #333; /* Text color */
+  font-weight: normal; /* Ensures text is not bold */
+  margin-bottom: 10px; /* Adds spacing below titles */
+}
+.row {
+  display: flex;
+  justify-content: center; /* Aligns main sections horizontally */
+  gap: 20px; /* Adds space between sections */
+}
+
+.picture-flower,
+.picture-cream {
+  text-align: center;
+}
+
+.top-procedures-row {
+  display: flex; /* Aligns spa and beauty images horizontally */
+  justify-content: center; /* Centers the images */
+  gap: 30px; /* Adds space between spa and beauty sections */
+}
+
+.top-procedures-under-flower img,
+.beauty-trends img,
+.cosmetic img {
+  width: 200px; /* Adjust all images to be proportional */
+  height: auto; /* Maintain proportions */
+  border-radius: 15px; /* Slightly round edges */
+  border: 1px solid #ddd; /* Optional border styling */
+}
+
+.cosmetic {
+  text-align: center; /* Center the new section */
+  margin-top: 30px; /* Add space above the cosmetic section */
+}
+
+.cosmetic h3 {
+  font-size: 16px; /* Smaller text size for the title */
+  color: #333; /* Text color */
+  font-weight: normal; /* Removes bold styling */
+  margin-bottom: 10px; /* Adds spacing below title */
+}
+.cosmetic-chair {
+  text-align: center; /* Centers the image and text */
+  margin-top: 20px; /* Adds space above this section */
+}
+
+.cosmetic-chair img {
+  width: 250px; /* Adjust image size */
+  height: auto; /* Maintain proportions */
+  border-radius: 10px; /* Optional: slightly round corners */
+  border: 1px solid #ddd; /* Optional: adds a subtle border */
+}
+
+.cosmetic-chair p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Text color */
+  margin-top: 10px; /* Space between image and text */
+  font-weight: normal; /* Ensures text is not bold */
+}
+.gallery-row {
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center the row */
+  gap: 30px; /* Add space between the images */
+  margin-top: 20px; /* Adds space above the row */
+}
+
+.gallery-item {
+  text-align: center; /* Centers text and image within each item */
+}
+
+.gallery-item img {
+  width: 200px; /* Adjust image size for both images */
+  height: auto; /* Maintain proportions */
+  border-radius: 10px; /* Slightly round the corners */
+  border: 1px solid #ddd; /* Optional border styling */
+}
+
+.gallery-item p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Set text color */
+  margin-top: 10px; /* Adds space between image and text */
+  font-weight: normal; /* Ensures text is not bold */
+}
+.gallery-row {
+  display: flex; /* Aligns gallery items horizontally */
+  justify-content: center; /* Centers the gallery row */
+  gap: 30px; /* Adds space between gallery items */
+  margin-top: 20px; /* Adds spacing above the gallery row */
+}
+
+.gallery-item {
+  text-align: center; /* Centers images and text */
+}
+
+.gallery-item img {
+  width: 200px; /* Adjust size of main gallery images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.sub-gallery-item {
+  margin-top: 15px; /* Adds space between the main image and the sub-image */
+  text-align: center; /* Centers the sub-image and text */
+}
+
+.sub-gallery-item img {
+  width: 180px; /* Slightly smaller size for the sub-image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.gallery-item p,
+.sub-gallery-item p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Set text color */
+  margin-top: 10px; /* Space between image and text */
+  font-weight: normal; /* Ensure text is not bold */
+}
+.gallery-row {
+  display: flex; /* Aligns gallery items horizontally */
+  justify-content: center; /* Centers the gallery row */
+  gap: 30px; /* Adds space between gallery items */
+  margin-top: 20px; /* Adds spacing above the gallery row */
+}
+
+.gallery-item,
+.sub-gallery-item {
+  text-align: center; /* Centers images and text */
+}
+
+.gallery-item img {
+  width: 200px; /* Adjust size of main gallery images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.sub-gallery-item img {
+  width: 180px; /* Adjust size for sub-gallery images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.gallery-item p,
+.sub-gallery-item p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Set text color */
+  margin-top: 10px; /* Space between image and text */
+  font-weight: normal; /* Ensure text is not bold */
+}
+.gallery-row {
+  display: flex; /* Align gallery items horizontally */
+  justify-content: center; /* Center the gallery row */
+  gap: 30px; /* Space between main gallery items */
+  margin-top: 20px; /* Adds space above the gallery row */
+}
+
+.gallery-item {
+  text-align: center; /* Centers text and images within each item */
+}
+
+.gallery-item img {
+  width: 200px; /* Adjust size for the main gallery images */
+  height: auto; /* Maintain proportions */
+  border-radius: 10px; /* Slightly round corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.sub-gallery-row {
+  display: flex; /* Align sub-gallery items horizontally */
+  justify-content: center; /* Center the row of images */
+  gap: 20px; /* Space between massage and coffee images */
+  margin-top: 15px; /* Adds space above the sub-gallery row */
+}
+
+.sub-gallery-item {
+  text-align: center; /* Centers text and images within each sub-item */
+}
+
+.sub-gallery-item img {
+  width: 180px; /* Adjust size for massage and coffee images */
+  height: auto; /* Maintain proportions */
+  border-radius: 10px; /* Slightly round corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.gallery-item p,
+.sub-gallery-item p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Set text color */
+  margin-top: 10px; /* Space between image and text */
+  font-weight: normal; /* Ensure text is not bold */
+}
+.gallery-row {
+  display: flex; /* Align gallery items horizontally */
+  justify-content: center; /* Center the gallery row */
+  gap: 30px; /* Space between main gallery items */
+  margin-top: 20px; /* Adds space above the gallery row */
+}
+
+.sub-gallery-row {
+  display: flex; /* Align sub-gallery items horizontally */
+  justify-content: center; /* Centers the images */
+  gap: 30px; /* Matches spacing with main gallery items */
+  margin-top: 15px; /* Adds space above the sub-gallery row */
+}
+
+.gallery-item,
+.sub-gallery-item {
+  text-align: center; /* Centers images and text */
+}
+
+.gallery-item img,
+.sub-gallery-item img {
+  width: 180px; /* Adjust size for images */
+  height: auto; /* Maintain proportions */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
+
+.gallery-item p,
+.sub-gallery-item p {
+  font-size: 18px; /* Adjust text size */
+  color: #333; /* Set text color */
+  margin-top: 10px; /* Space between image and text */
+  font-weight: normal; /* Ensure text is not bold */
+}
+.gallery-row {
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center the gallery row */
+  gap: 30px; /* Space between gallery items */
+  margin-top: 20px; /* Adds spacing between rows */
+}
+
+.gallery-item {
+  text-align: center; /* Centers each image */
+}
+
+.gallery-item img {
+  width: 200px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #ddd; /* Optional border for styling */
+}
